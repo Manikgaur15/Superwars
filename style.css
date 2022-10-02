@@ -1,0 +1,57 @@
+.footer{
+  margin-left : 80px;
+  font-size : 18px;
+}
+#main{
+  display: grid;
+  margin: 50px;
+  
+  grid-template-columns: auto auto auto auto auto auto auto;
+  justify-content: center;
+}
+div{
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 20px;
+
+}
+.spider{
+  text-align: center;
+  font-size:xx-large;
+  font-family:fantasy;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.wonder{
+  text-align: center;
+  font-size:xx-large;
+  font-family:fantasy ;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+}
+#score{
+  border: 2px solid white;
+  text-align: center;
+  width: 150px;
+  font-size: xx-large;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  letter-spacing: 20px;
+}
+.captain{
+  text-align: center;
+  font-size:xx-large;
+  font-family:fantasy ;
+
+}
+.thanos{
+  text-align: center;
+  font-size:xx-large;
+  font-family:fantasy ;
+
+}
+
+
